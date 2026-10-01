@@ -1,0 +1,57 @@
+.magic-ball-container {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #e2e8f0;
+}
+
+.magic-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 280px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.magic-input:focus {
+  border-color: #3b82f6;
+}
+
+.magic-ball {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #0f172a;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.magic-ball:hover {
+  transform: scale(1.03);
+}
+
+.ball-window {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #1e1b4b;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.ball-window p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
